@@ -18,6 +18,62 @@ piecesPerPlayer = 5
 position = Vector2( 302.09, 76.4581 )
 player1Sequence = 1
 
+[node name="Tile19" parent="Tiles" instance=ExtResource( 1 )]
+position = Vector2( 302.09, 132.458 )
+player1Sequence = 1
+
+[node name="Tile20" parent="Tiles" instance=ExtResource( 1 )]
+position = Vector2( 302.09, 188.458 )
+player1Sequence = 1
+
+[node name="Tile21" parent="Tiles" instance=ExtResource( 1 )]
+position = Vector2( 302.09, 244.458 )
+player1Sequence = 1
+
+[node name="Tile22" parent="Tiles" instance=ExtResource( 1 )]
+position = Vector2( 302.09, 300.458 )
+player1Sequence = 1
+
+[node name="Tile23" parent="Tiles" instance=ExtResource( 1 )]
+position = Vector2( 302.09, 356.458 )
+player1Sequence = 1
+
+[node name="Tile24" parent="Tiles" instance=ExtResource( 1 )]
+position = Vector2( 302.09, 412.458 )
+player1Sequence = 1
+
+[node name="Tile25" parent="Tiles" instance=ExtResource( 1 )]
+position = Vector2( 302.09, 468.458 )
+player1Sequence = 1
+
+[node name="Tile26" parent="Tiles" instance=ExtResource( 1 )]
+position = Vector2( 686.09, 132.458 )
+player1Sequence = 1
+
+[node name="Tile27" parent="Tiles" instance=ExtResource( 1 )]
+position = Vector2( 686.09, 188.458 )
+player1Sequence = 1
+
+[node name="Tile28" parent="Tiles" instance=ExtResource( 1 )]
+position = Vector2( 686.09, 244.458 )
+player1Sequence = 1
+
+[node name="Tile29" parent="Tiles" instance=ExtResource( 1 )]
+position = Vector2( 686.09, 300.458 )
+player1Sequence = 1
+
+[node name="Tile30" parent="Tiles" instance=ExtResource( 1 )]
+position = Vector2( 686.09, 356.458 )
+player1Sequence = 1
+
+[node name="Tile31" parent="Tiles" instance=ExtResource( 1 )]
+position = Vector2( 686.09, 412.458 )
+player1Sequence = 1
+
+[node name="Tile32" parent="Tiles" instance=ExtResource( 1 )]
+position = Vector2( 686.09, 468.458 )
+player1Sequence = 1
+
 [node name="Tile2" parent="Tiles" instance=ExtResource( 1 )]
 position = Vector2( 686.09, 76.4581 )
 player2Sequence = 1
@@ -53,59 +109,59 @@ player1Sequence = 5
 player2Sequence = 5
 
 [node name="Tile9" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 494.09, 196.458 )
+position = Vector2( 494.09, 188.458 )
 player1Sequence = 6
 player2Sequence = 6
 
 [node name="Tile10" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 494.09, 261.474 )
+position = Vector2( 494.09, 244.474 )
 player1Sequence = 7
 player2Sequence = 7
 extraRole = true
 safeArea = true
 
 [node name="Tile11" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 494.09, 324.458 )
+position = Vector2( 494.09, 300.458 )
 player1Sequence = 8
 player2Sequence = 8
 
 [node name="Tile12" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 494.09, 388.458 )
+position = Vector2( 494.09, 356.458 )
 player1Sequence = 9
 player2Sequence = 9
 
 [node name="Tile13" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 494.09, 452.458 )
+position = Vector2( 494.09, 412.458 )
 player1Sequence = 10
 player2Sequence = 10
 
 [node name="Tile14" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 494.09, 516.458 )
+position = Vector2( 494.09, 468.458 )
 player1Sequence = 11
 player2Sequence = 11
 
 [node name="Tile15" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 430.09, 516.458 )
+position = Vector2( 430.09, 468.458 )
 player1Sequence = 12
 
 [node name="Tile16" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 358.09, 516.458 )
+position = Vector2( 366.09, 468.458 )
 player1Sequence = 13
 extraRole = true
 safeArea = true
 
 [node name="Tile17" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 558.09, 516.458 )
+position = Vector2( 558.09, 468.458 )
 player2Sequence = 12
 
 [node name="Tile18" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 622.09, 516.458 )
+position = Vector2( 622.09, 468.458 )
 player2Sequence = 13
 extraRole = true
 safeArea = true
 
 [node name="Dice1" type="Area2D" parent="."]
-position = Vector2( 228.655, 256.015 )
+position = Vector2( 70.655, 256.685 )
 script = ExtResource( 4 )
 __meta__ = {
 "_edit_group_": true
@@ -128,7 +184,7 @@ position = Vector2( 71.8956, 49.3683 )
 shape = SubResource( 1 )
 
 [node name="Dice2" type="Area2D" parent="."]
-position = Vector2( 611.952, 256.685 )
+position = Vector2( 771.952, 256.685 )
 script = ExtResource( 4 )
 __meta__ = {
 "_edit_group_": true
